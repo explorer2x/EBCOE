@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T06:39:47.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="R-yyCKIDc6KknvaN_82l" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T08:12:44.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PLBmCsechcXMoxuPTm6V" version="24.2.0" type="github">
   <diagram name="第 1 页" id="83uqd1XD576B4KeyOUZV">
-    <mxGraphModel dx="3718" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4508" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-97" value="Enroll / Change / Terminate EE on Carrier Website" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=21;labelBackgroundColor=#0008e6;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-405" y="4430" width="1835" height="1340" as="geometry" />
+          <mxGeometry x="-405" y="4430" width="1835" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-261" target="GgeAHl5cq-EndFfnK4Qn-272" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-270" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="603.75" y="550" width="622.5" height="360" as="geometry" />
+          <mxGeometry x="603.75" y="550" width="622.5" height="260" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-272" target="GgeAHl5cq-EndFfnK4Qn-270" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -86,40 +86,40 @@
           <mxGeometry x="1052.5" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-328" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="360" y="1090" width="1110" height="210" as="geometry" />
+          <mxGeometry x="360" y="1000" width="1110" height="210" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-330" target="GgeAHl5cq-EndFfnK4Qn-328" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-330" value="&lt;div&gt;Return Processing Status to Work Log&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="710" y="970" width="410" height="60" as="geometry" />
+          <mxGeometry x="710" y="880" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-331" target="GgeAHl5cq-EndFfnK4Qn-347" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-331" value="If automation stopped in the mid of process on carrier website, update below columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="395" y="1100" width="330" height="60" as="geometry" />
+          <mxGeometry x="395" y="1010" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-353" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-344" target="GgeAHl5cq-EndFfnK4Qn-351" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-344" value="If automation finished all changes on carrier website, update below columns in Work Log for corresponding request item" style="rounded=1;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="755" y="1100" width="330" height="60" as="geometry" />
+          <mxGeometry x="755" y="1010" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-347" value="&lt;div&gt;&lt;b&gt;Status: &lt;/b&gt;select &quot;Pending for question&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Issue Found on Carrier Website&lt;/b&gt;: fill in corresponding issue per requirement in Data Capture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="402.5" y="1210" width="315" height="80" as="geometry" />
+          <mxGeometry x="402.5" y="1120" width="315" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-351" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;Status:&lt;/b&gt; &quot;Completed&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Issue Found on Carrier Website:&lt;/b&gt; &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request Completed via Email / Online?&lt;/b&gt;: &quot;Yes&quot;&lt;/div&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="762.5" y="1210" width="315" height="80" as="geometry" />
+          <mxGeometry x="762.5" y="1120" width="315" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-354" target="GgeAHl5cq-EndFfnK4Qn-355" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-354" value="If any issues found in the mid of process on carrier website, but automation can finish the rest changes, update below columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="1115" y="1100" width="350" height="60" as="geometry" />
+          <mxGeometry x="1115" y="1010" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-355" value="&lt;div&gt;&lt;b&gt;Status:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;select &quot;Pending for question&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Automation Notes to Processor: &lt;/b&gt;fill in corresponding notes per requirement in Data Capture&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request Completed via Email / Online?&lt;/b&gt;: &quot;Yes&quot;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="GgeAHl5cq-EndFfnK4Qn-97" vertex="1">
-          <mxGeometry x="1132.5" y="1210" width="315" height="80" as="geometry" />
+          <mxGeometry x="1132.5" y="1120" width="315" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GgeAHl5cq-EndFfnK4Qn-8" target="GgeAHl5cq-EndFfnK4Qn-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -173,7 +173,7 @@
           <mxGeometry x="423.13" y="610" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-311.87" y="680" width="1690" height="1030" as="geometry" />
+          <mxGeometry x="-200" y="680" width="1578.13" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GgeAHl5cq-EndFfnK4Qn-36" target="GgeAHl5cq-EndFfnK4Qn-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -423,7 +423,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-123" value="Retrieve Info from EN for All EN EE in Work Log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
-          <mxGeometry x="1158.94" y="60" width="245" height="60" as="geometry" />
+          <mxGeometry x="1158.94" y="80" width="245" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-246" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" source="GgeAHl5cq-EndFfnK4Qn-124" target="GgeAHl5cq-EndFfnK4Qn-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -515,7 +515,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-157" value="Event Name contains the wording of any item in the list" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-157" value="Event Name contains the wording of any item in the list" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="668.4200000000001" y="1110" width="374.07" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-162" value="&lt;div&gt;update below columns in Work Log&lt;/div&gt;&lt;div&gt;&lt;b&gt;Task Type&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;b&gt; Carrier&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Reason for Enrollment / Termination&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plan Name&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Reason for No Need to Process&lt;/b&gt;: &quot;Out of scope items per event type - &quot; + corresponding item in Config tab&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fixedSize=1;align=center;horizontal=1;verticalAlign=middle;whiteSpace=wrap;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
@@ -571,7 +571,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-177" value="Event Name contains the wording of any item in the list" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-177" value="Event Name contains the wording of any item in the Drop list" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="604.4399999999999" y="1610" width="302.04" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" source="GgeAHl5cq-EndFfnK4Qn-179" target="GgeAHl5cq-EndFfnK4Qn-212" edge="1">
@@ -602,11 +602,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-181" value="is included in Event Name" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-181" value="is included in Event Name" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="406.5199999999999" y="1710" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-205" value="fill in corresponding Plan Name to Work Log, leave Carrier column blank (info not available in Ended Coverage section)" style="whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
-          <mxGeometry x="231.51999999999998" y="1690" width="120" height="120" as="geometry" />
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-205" value="&lt;ul&gt;&lt;li&gt;fill in corresponding Plan Name to Work Log&lt;/li&gt;&lt;li&gt;leave Carrier column blank (info not available in Ended Coverage section)&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+          <mxGeometry x="195" y="1665" width="141.52" height="170" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-208" value="leave Plan Name and Carrier column blank" style="whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="525.4599999999999" y="1720" width="113.94" height="60" as="geometry" />
@@ -629,7 +629,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-212" value="Check if &quot;Not Enrolled In Any Plans&quot; is listed under Enrolled Plans section" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-212" value="Check if &quot;Not Enrolled In Any Plans&quot; is listed under Enrolled Plans section" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="968" y="1725" width="173.98" height="125" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-221" value="&lt;div&gt;update below in Work Log:&lt;/div&gt;&lt;div&gt;&lt;b&gt;Task Type&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Carrier:&lt;/b&gt; &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Reason for Enrollment / Termination&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Plan Name&lt;/b&gt;: &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Reason for No Need to Process:&lt;/b&gt; &quot;EE didn&#39;t enroll in any plans&quot;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
@@ -651,11 +651,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-222" value="check if any plan type from Enrolled Plans section is included in Event Name" style="rhombus;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-222" value="check if any plan type from Enrolled Plans section is included in Event Name" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="1125.46" y="1865" width="225" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-225" value="fill in corresponding Plan Name to Work Log; fill in Carrier to Work Log per mapping between Carrier and Carrier in EN in Config" style="rounded=1;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
-          <mxGeometry x="962.3399999999998" y="1857.5" width="120" height="125" as="geometry" />
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-225" value="&lt;ul&gt;&lt;li&gt;fill in corresponding Plan Name to Work Log;&amp;nbsp;&lt;/li&gt;&lt;li&gt;fill in Carrier to Work Log per mapping between Carrier and Carrier in EN in Config&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
+          <mxGeometry x="900" y="1857.5" width="182.34" height="125" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-230" value="leave Plan Name and Carrier column blank" style="rounded=1;whiteSpace=wrap;html=1;" parent="GgeAHl5cq-EndFfnK4Qn-106" vertex="1">
           <mxGeometry x="1395.46" y="1890" width="120" height="60" as="geometry" />

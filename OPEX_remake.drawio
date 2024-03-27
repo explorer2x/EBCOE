@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T06:34:32.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BkQX18OiGxk9wykxvR5F" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T06:35:25.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mmonf1YDgCLt0hppjdOA" version="24.2.0" type="github">
   <diagram name="第 1 页" id="83uqd1XD576B4KeyOUZV">
-    <mxGraphModel dx="3240" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="10410" dy="5240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,25 +694,25 @@
           <mxGeometry x="835.63" y="30" width="215" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-1" value="QC - Validate Request Items &amp; Reconcile Work Completed" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontSize=21;labelBackgroundColor=#0008e6;fontColor=#ffffff;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="810" width="3390" height="3890" as="geometry" />
+          <mxGeometry x="1710" y="160" width="2080" height="3780" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-179" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="963.75" y="2400" width="1645" height="230" as="geometry" />
+          <mxGeometry x="311.25" y="2410" width="1645" height="230" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-3" target="wXiFjKmtYQNaFBfWxqvg-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1467.5" y="180" width="435" height="220" as="geometry" />
+          <mxGeometry x="815" y="190" width="435" height="220" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-5" target="wXiFjKmtYQNaFBfWxqvg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-5" value="Trigger QC Automation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1480" y="80" width="410" height="60" as="geometry" />
+          <mxGeometry x="827.5" y="90" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-6" value="Check Work Log every half an hour" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1487.5" y="210" width="182.5" height="40" as="geometry" />
+          <mxGeometry x="835" y="220" width="182.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-6" target="wXiFjKmtYQNaFBfWxqvg-8">
           <mxGeometry relative="1" as="geometry" />
@@ -721,48 +721,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-8" value="Triger QC automation for each request item when meet both criteria:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1487.5" y="280" width="182.5" height="40" as="geometry" />
+          <mxGeometry x="835" y="290" width="182.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-12" target="wXiFjKmtYQNaFBfWxqvg-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1685" y="890" as="targetPoint" />
+            <mxPoint x="1032.5" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1450" y="560" width="470" height="300" as="geometry" />
+          <mxGeometry x="797.5" y="570" width="470" height="300" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-14" target="wXiFjKmtYQNaFBfWxqvg-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-14" value="Compare Info Used to Locate Task in Current Work Log vs. Original Work Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1480" y="460" width="410" height="60" as="geometry" />
+          <mxGeometry x="827.5" y="470" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-15" value="&amp;nbsp;Locate the corresponding request item in backup Work Log by searching the same row and additional 5 upper and lower rows in backup Work Log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1517.5" y="590" width="330" height="100" as="geometry" />
+          <mxGeometry x="865" y="600" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-26" target="wXiFjKmtYQNaFBfWxqvg-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="962.5" y="1000" width="400" height="190" as="geometry" />
+          <mxGeometry x="310" y="1010" width="400" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-28" target="wXiFjKmtYQNaFBfWxqvg-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-28" value="&lt;div&gt;Update Remove / New Added from Original Work Log? Column&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="957.5" y="915" width="410" height="60" as="geometry" />
+          <mxGeometry x="305" y="925" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-36" value="&lt;b&gt;Remove / Newly Added from Original Work Log column:&lt;/b&gt; &quot;No&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="987.5" y="1010" width="350" height="60" as="geometry" />
+          <mxGeometry x="335" y="1020" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-44" value="&lt;ul&gt;&lt;li&gt;Auditor is not blank&lt;/li&gt;&lt;li&gt;Remove / Newly added from Original Work Log? is blank&lt;/li&gt;&lt;/ul&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1730" y="205" width="155" height="190" as="geometry" />
+          <mxGeometry x="1077.5" y="215" width="155" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wXiFjKmtYQNaFBfWxqvg-15" target="wXiFjKmtYQNaFBfWxqvg-47" parent="wXiFjKmtYQNaFBfWxqvg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-47" value="Check if can locate two request items with exactly same info from Employee ID in EN column to Change Date &amp;amp; Time column" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1517.5" y="730" width="330" height="100" as="geometry" />
+          <mxGeometry x="865" y="740" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-48" target="wXiFjKmtYQNaFBfWxqvg-54">
           <mxGeometry relative="1" as="geometry" />
@@ -773,11 +773,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-48" value="can locate?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1587.5" y="890" width="195" height="110" as="geometry" />
+          <mxGeometry x="935" y="900" width="195" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-48" target="wXiFjKmtYQNaFBfWxqvg-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="970" as="targetPoint" />
+            <mxPoint x="717.5" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-50" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wXiFjKmtYQNaFBfWxqvg-49">
@@ -789,36 +789,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-54" value="&lt;div&gt;Update Remove / New Added from Original Work Log? Column&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2110" y="915" width="410" height="60" as="geometry" />
+          <mxGeometry x="1457.5" y="925" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wXiFjKmtYQNaFBfWxqvg-36" target="wXiFjKmtYQNaFBfWxqvg-72" parent="wXiFjKmtYQNaFBfWxqvg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-72" value="&lt;b&gt;under last column for corresponding row of backup Work Log:&amp;nbsp;&lt;/b&gt;&quot;Checked&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="987.5" y="1110" width="350" height="60" as="geometry" />
+          <mxGeometry x="335" y="1120" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-73" target="wXiFjKmtYQNaFBfWxqvg-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-73" value="Identify Info Missing / Conflict from Original Work Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="958.75" y="1230" width="407.5" height="60" as="geometry" />
+          <mxGeometry x="306.25" y="1240" width="407.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-77" target="wXiFjKmtYQNaFBfWxqvg-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="833.75" y="1320" width="657.5" height="340" as="geometry" />
+          <mxGeometry x="181.25" y="1330" width="657.5" height="340" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-78" target="wXiFjKmtYQNaFBfWxqvg-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-78" value="Compare info tracked from Task Type column&amp;nbsp;&lt;div&gt;to&amp;nbsp;&lt;/div&gt;&lt;div&gt;Reason for No Need to Process column&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;in both Work Logs&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="987.5" y="1330" width="350" height="60" as="geometry" />
+          <mxGeometry x="335" y="1340" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-84" target="wXiFjKmtYQNaFBfWxqvg-88">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="961" y="1460" />
+              <mxPoint x="308.5" y="1470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -836,54 +836,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-84" value="any info missing/different in both work logs" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1048.75" y="1420" width="227.5" height="80" as="geometry" />
+          <mxGeometry x="396.25" y="1430" width="227.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-88" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;under Info Missing / Conflict with Original Work Log column&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;corresponding column name&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;copy info from original work log to Info From Original Work Log column, use &quot;;&quot; to separate multiple missing / different info&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="850" y="1510" width="222.5" height="130" as="geometry" />
+          <mxGeometry x="197.5" y="1520" width="222.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-94" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;under Info Missing / Conflict with Original Work Log column:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;No&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;under Info From Original Work Log column:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;N/A&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1276.25" y="1515" width="195" height="120" as="geometry" />
+          <mxGeometry x="623.75" y="1525" width="195" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-97" target="wXiFjKmtYQNaFBfWxqvg-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2315" y="1800" />
+              <mxPoint x="1662.5" y="1810" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2115" y="1010" width="400" height="190" as="geometry" />
+          <mxGeometry x="1462.5" y="1020" width="400" height="190" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-98" value="&lt;b&gt;Remove / Newly Added from Original Work Log column:&lt;/b&gt;&amp;nbsp;&quot;Newly Added&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2140" y="1020" width="350" height="60" as="geometry" />
+          <mxGeometry x="1487.5" y="1030" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-108" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;TBD: For request items manually copied by SDU, mark one of them as NO and treat all others as newly added?&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2140" y="1100" width="340" height="80" as="geometry" />
+          <mxGeometry x="1487.5" y="1110" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.518;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-109" target="wXiFjKmtYQNaFBfWxqvg-112">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1911.333333333334" y="1950" as="sourcePoint" />
+            <mxPoint x="1258.833333333334" y="1960" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-109" value="&lt;div&gt;Identify Whether Request is Completed via Email / Online?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1491.25" y="1770" width="590" height="60" as="geometry" />
+          <mxGeometry x="838.75" y="1780" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-112" target="wXiFjKmtYQNaFBfWxqvg-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-112" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="968.75" y="1950" width="1630" height="340" as="geometry" />
+          <mxGeometry x="326.25" y="1960" width="1630" height="340" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wXiFjKmtYQNaFBfWxqvg-114" target="wXiFjKmtYQNaFBfWxqvg-119" parent="wXiFjKmtYQNaFBfWxqvg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-114" value="&lt;div&gt;Email to Carrier&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1380.6200000000001" y="2075" width="198.75" height="20" as="geometry" />
+          <mxGeometry x="728.1200000000001" y="2085" width="198.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="wXiFjKmtYQNaFBfWxqvg-119" target="wXiFjKmtYQNaFBfWxqvg-120" parent="wXiFjKmtYQNaFBfWxqvg-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1544.75" y="2205" />
+              <mxPoint x="892.25" y="2215" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -901,22 +901,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-119" value="can locate the email in Sent items with Email Subject: Group + EE name + Change Type (Enroll / Term / Change) and carrier&#39;s email address from To" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1328.75" y="2125" width="302.5" height="150" as="geometry" />
+          <mxGeometry x="676.25" y="2135" width="302.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-120" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;mark &quot;Yes&quot;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontStyle=1" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1058.75" y="2135" width="222.5" height="130" as="geometry" />
+          <mxGeometry x="406.25" y="2145" width="222.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-121" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;mark &quot;No&quot;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1668.75" y="2140" width="195" height="120" as="geometry" />
+          <mxGeometry x="1016.25" y="2150" width="195" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-139" value="&lt;div&gt;Online - Carrier Automated&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1898.75" y="2075" width="198.75" height="30" as="geometry" />
+          <mxGeometry x="1246.25" y="2085" width="198.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wXiFjKmtYQNaFBfWxqvg-139" target="wXiFjKmtYQNaFBfWxqvg-141" parent="wXiFjKmtYQNaFBfWxqvg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-141" value="&lt;div&gt;skip&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1898.75" y="2135" width="198.75" height="20" as="geometry" />
+          <mxGeometry x="1246.25" y="2145" width="198.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-144" target="wXiFjKmtYQNaFBfWxqvg-114">
           <mxGeometry relative="1" as="geometry" />
@@ -924,7 +924,7 @@
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-144" target="wXiFjKmtYQNaFBfWxqvg-139">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1997.75" y="2010" />
+              <mxPoint x="1345.25" y="2020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -932,31 +932,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-144" value="get Process Method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1608.75" y="1965" width="120" height="60" as="geometry" />
+          <mxGeometry x="956.25" y="1975" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-149" value="For the rest Process Method, fill in &quot;N/A&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2178.75" y="2080" width="120" height="60" as="geometry" />
+          <mxGeometry x="1526.25" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-151" target="wXiFjKmtYQNaFBfWxqvg-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-151" value="Locate Confirmation Document in Shared Folder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1593.75" y="2340" width="380" height="30" as="geometry" />
+          <mxGeometry x="941.25" y="2350" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-180" target="wXiFjKmtYQNaFBfWxqvg-181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-180" value="Go to designated shared folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1668.75" y="2420" width="170" height="80" as="geometry" />
+          <mxGeometry x="1016.25" y="2430" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-181" target="wXiFjKmtYQNaFBfWxqvg-262">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-181" value="Check if can locate confirmation document in folder per below rules for file name of Confirmation Doument:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1483.75" y="2540" width="540" height="60" as="geometry" />
+          <mxGeometry x="831.25" y="2550" width="540" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-255" value="&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;General rule: Effetie Date - EE Last Name, EE First Name Initial - Task Type Code - LOB Abbr - Carrier A,Carrier B - Proess Date, e.g., 3-24-24 - Doe, J - E - M,D - Aetna,BCBS - 3-26-24&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If multiple effective date for different carriers, use &quot;,&quot; to separate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Effective Dateh and Process Date might have variation since processors not follow rules strictly, e.g., 3-24-24, 3-24-2024, 03-24-24, 03-24-2024&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2031.25" y="2520" width="557.5" height="90" as="geometry" />
+          <mxGeometry x="1378.75" y="2530" width="557.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-262" target="wXiFjKmtYQNaFBfWxqvg-266">
           <mxGeometry relative="1" as="geometry" />
@@ -975,34 +975,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-262" value="&lt;span style=&quot;font-size: 10pt; font-family: Calibri; font-weight: bold; vertical-align: baseline;&quot;&gt;Located？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1676.88" y="2680" width="153.75" height="146.43" as="geometry" />
+          <mxGeometry x="1024.38" y="2690" width="153.75" height="146.43" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-266" target="wXiFjKmtYQNaFBfWxqvg-276">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-266" value="&lt;b&gt;Update Confirmation Document Located? Column：&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Yes&quot;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1281.25" y="2723.22" width="283.75" height="60" as="geometry" />
+          <mxGeometry x="628.75" y="2733.22" width="283.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-268" value="&lt;b&gt;Update Confirmation Document Located? Column：&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;No&quot;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1920" y="2723.22" width="283.75" height="60" as="geometry" />
+          <mxGeometry x="1267.5" y="2733.22" width="283.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-276" target="wXiFjKmtYQNaFBfWxqvg-278">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-276" value="Compare Info Extracted from Confirmation Document vs. Work Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1283.75" y="2820" width="278.75" height="60" as="geometry" />
+          <mxGeometry x="631.25" y="2830" width="278.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-278" target="wXiFjKmtYQNaFBfWxqvg-303">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-278" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="802.5" y="2920" width="1241.25" height="300" as="geometry" />
+          <mxGeometry x="150" y="2930" width="1241.25" height="300" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-280" target="wXiFjKmtYQNaFBfWxqvg-281">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-280" value="Extract all info from Confirmation Document" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1350.63" y="2930" width="120" height="60" as="geometry" />
+          <mxGeometry x="698.1300000000001" y="2940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-281" target="wXiFjKmtYQNaFBfWxqvg-282">
           <mxGeometry relative="1" as="geometry" />
@@ -1011,10 +1011,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-281" value="Check if can locate below info from Work Log in exacted info:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1350.63" y="3010" width="120" height="60" as="geometry" />
+          <mxGeometry x="698.1300000000001" y="3020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-282" value="&lt;ul&gt;&lt;li&gt;Group&lt;/li&gt;&lt;li&gt;EE Name&lt;/li&gt;&lt;li&gt;Carrier&lt;/li&gt;&lt;/ul&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1515.63" y="3000" width="121.25" height="80" as="geometry" />
+          <mxGeometry x="863.1300000000001" y="3010" width="121.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-287" target="wXiFjKmtYQNaFBfWxqvg-289">
           <mxGeometry relative="1" as="geometry" />
@@ -1033,31 +1033,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-287" value="locate?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1370.63" y="3100" width="80" height="80" as="geometry" />
+          <mxGeometry x="718.1300000000001" y="3110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-289" target="wXiFjKmtYQNaFBfWxqvg-294">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-289" value="update columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1110.63" y="3110" width="210" height="60" as="geometry" />
+          <mxGeometry x="458.1300000000001" y="3120" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-294" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Info Extracted from Confirmation Document Aligns with Work Log?: &quot;Yes&quot;&lt;/li&gt;&lt;li&gt;Info w/ Discrepancy Between Work Log and Confirmation Document: &quot;N/A&quot;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="836.25" y="3080" width="236.25" height="120" as="geometry" />
+          <mxGeometry x="183.75" y="3090" width="236.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-296" target="wXiFjKmtYQNaFBfWxqvg-299">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-296" value="update columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1511.25" y="3110" width="188.75" height="60" as="geometry" />
+          <mxGeometry x="858.75" y="3120" width="188.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-299" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Info Extracted from Confirmation Document Aligns with Work Log?: fill in &quot;No&quot;&lt;/li&gt;&lt;li&gt;Info w/ Discrepancy Between Work Log and Confirmation Document: fill in the info that cannot be located&lt;/li&gt;&lt;li&gt;use &quot;;&quot; to separate&amp;nbsp;If multiple info cannot be located&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1747.5" y="3075" width="262.5" height="130" as="geometry" />
+          <mxGeometry x="1095" y="3085" width="262.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-312" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-303" target="wXiFjKmtYQNaFBfWxqvg-311">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-303" value="Identify If QC Finished for All Request Items in Work Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1240" y="3270" width="366.25" height="40" as="geometry" />
+          <mxGeometry x="587.5" y="3280" width="366.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-322" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-311" target="wXiFjKmtYQNaFBfWxqvg-321">
           <mxGeometry relative="1" as="geometry" />
@@ -1068,10 +1068,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-311" value="if any request item is still blank under Remove / Newly Added from Original Work Log? column&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1203.43" y="3350" width="439.38" height="90" as="geometry" />
+          <mxGeometry x="550.9300000000001" y="3360" width="439.38" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-317" value="DONE" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1030" y="3370" width="100" height="60" as="geometry" />
+          <mxGeometry x="377.5" y="3380" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-311" target="wXiFjKmtYQNaFBfWxqvg-317">
           <mxGeometry relative="1" as="geometry" />
@@ -1085,7 +1085,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-321" value="&lt;div&gt;Identify Request Items Removed from Original Work Log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1750" y="3365" width="120" height="60" as="geometry" />
+          <mxGeometry x="1097.5" y="3375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-326" target="wXiFjKmtYQNaFBfWxqvg-330">
           <mxGeometry relative="1" as="geometry" />
@@ -1096,13 +1096,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-326" value="if any request item is NOT marked as &quot;Checked&quot; in backup work log" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1693.34" y="3470" width="233.33" height="140" as="geometry" />
+          <mxGeometry x="1040.84" y="3480" width="233.33" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-330" value="copy the request item from backup work log to the bottom row of current work log, and fill in &quot;Removed&quot; under Remove / Newly Added from Original Work Log? column" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="1410.0000000000002" y="3485" width="219.37" height="110" as="geometry" />
+          <mxGeometry x="757.5000000000002" y="3495" width="219.37" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-335" value="DONE" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="wXiFjKmtYQNaFBfWxqvg-1">
-          <mxGeometry x="2023.75" y="3510" width="100" height="60" as="geometry" />
+          <mxGeometry x="1371.25" y="3520" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wXiFjKmtYQNaFBfWxqvg-336" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wXiFjKmtYQNaFBfWxqvg-1" source="wXiFjKmtYQNaFBfWxqvg-326" target="wXiFjKmtYQNaFBfWxqvg-335">
           <mxGeometry relative="1" as="geometry" />

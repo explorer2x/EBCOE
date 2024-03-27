@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T02:44:10.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2bU5ihEstf8tUu-gpi-e" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T02:52:27.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lkXEqP8xWK6HvdId_FGr" version="24.1.0" type="github">
   <diagram name="第 1 页" id="83uqd1XD576B4KeyOUZV">
-    <mxGraphModel dx="2284" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3240" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,9 @@
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-266" value="If any data missing / cannot fill in, fill in issues to Automation Notes to Processor column" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
           <mxGeometry x="777.5" y="300" width="260" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-270" target="GgeAHl5cq-EndFfnK4Qn-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-270" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
           <mxGeometry x="603.75" y="550" width="622.5" height="360" as="geometry" />
         </mxCell>
@@ -46,19 +49,77 @@
           <mxGeometry x="710" y="450" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-273" value="Processor mark &quot;Yes&quot; under Process Method Approved? column" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
-          <mxGeometry x="777.5" y="560" width="260" height="40" as="geometry" />
+          <mxGeometry x="810" y="570" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="GgeAHl5cq-EndFfnK4Qn-273" target="GgeAHl5cq-EndFfnK4Qn-275" parent="GgeAHl5cq-EndFfnK4Qn-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-275" target="GgeAHl5cq-EndFfnK4Qn-284">
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-275" target="GgeAHl5cq-EndFfnK4Qn-299">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-275" value="Processor send request items to automation by batch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
-          <mxGeometry x="777.5" y="620" width="260" height="40" as="geometry" />
+          <mxGeometry x="810" y="630" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GgeAHl5cq-EndFfnK4Qn-284" value="If Process Method is Online" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
-          <mxGeometry x="828.13" y="690" width="158.75" height="80" as="geometry" />
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-297" value="Carrier Automated, trigger automation to process on corresponding carrier website per Data Capture and Work Log;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="642.5" y="710" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-299" target="GgeAHl5cq-EndFfnK4Qn-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-301" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GgeAHl5cq-EndFfnK4Qn-300">
+          <mxGeometry x="-0.3337" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-299" target="GgeAHl5cq-EndFfnK4Qn-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-308" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GgeAHl5cq-EndFfnK4Qn-307">
+          <mxGeometry x="-0.1431" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-299" value="If Process Method is Online" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="860.63" y="700" width="158.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-304" value="skip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="1052.5" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-328" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="360" y="1090" width="1110" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-330" target="GgeAHl5cq-EndFfnK4Qn-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-330" value="&lt;div&gt;Return Processing Status to Work Log&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="710" y="970" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-331" target="GgeAHl5cq-EndFfnK4Qn-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-331" value="If automation stopped in the mid of process on carrier website, update below columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="395" y="1100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-353" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-344" target="GgeAHl5cq-EndFfnK4Qn-351">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-344" value="If automation finished all changes on carrier website, update below columns in Work Log for corresponding request item" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="755" y="1100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-347" value="&lt;div&gt;&lt;b&gt;Status: &lt;/b&gt;select &quot;Pending for question&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Issue Found on Carrier Website&lt;/b&gt;: fill in corresponding issue per requirement in Data Capture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="402.5" y="1210" width="315" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-351" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;Status:&lt;/b&gt; &quot;Completed&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Issue Found on Carrier Website:&lt;/b&gt; &quot;N/A&quot;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request Completed via Email / Online?&lt;/b&gt;: &quot;Yes&quot;&lt;/div&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="762.5" y="1210" width="315" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GgeAHl5cq-EndFfnK4Qn-97" source="GgeAHl5cq-EndFfnK4Qn-354" target="GgeAHl5cq-EndFfnK4Qn-355">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-354" value="If any issues found in the mid of process on carrier website, but automation can finish the rest changes, update below columns in Work Log for corresponding request item:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="1115" y="1100" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GgeAHl5cq-EndFfnK4Qn-355" value="&lt;div&gt;&lt;b&gt;Status:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;select &quot;Pending for question&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Automation Notes to Processor: &lt;/b&gt;fill in corresponding notes per requirement in Data Capture&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Request Completed via Email / Online?&lt;/b&gt;: &quot;Yes&quot;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GgeAHl5cq-EndFfnK4Qn-97">
+          <mxGeometry x="1132.5" y="1210" width="315" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgeAHl5cq-EndFfnK4Qn-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GgeAHl5cq-EndFfnK4Qn-8" target="GgeAHl5cq-EndFfnK4Qn-31">
           <mxGeometry relative="1" as="geometry" />

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T01:32:02.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5Ec1EvY_Nl0_ulXfS79a" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T01:35:20.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZMlysGJdAbJvCIygahHv" version="24.4.0" type="github">
   <diagram name="第 1 页" id="cuX83Zz7LstaSbaiO-IE">
-    <mxGraphModel dx="3387" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4090" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,7 +288,7 @@
           <mxGeometry x="42.5" y="40" width="325" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-121" value="save_JSON" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1590" y="290" width="1530" height="480" as="geometry" />
+          <mxGeometry x="-1590" y="290" width="1530" height="560" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-122" target="5gkbCRGT5eKHyLrMa7Dm-123">
           <mxGeometry relative="1" as="geometry" />
@@ -309,49 +309,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-127" value="SAVE xlsx if SDU choosed TODO FOLDER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="510" y="160" width="255" height="60" as="geometry" />
+          <mxGeometry x="510" y="130" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-130" target="5gkbCRGT5eKHyLrMa7Dm-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-130" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="480" y="187.5" width="20" height="185" as="geometry" />
-        </mxCell>
-        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-132" target="5gkbCRGT5eKHyLrMa7Dm-134">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="480" y="158.75" width="20" height="242.5" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-132" value="Check if any #N/A in output" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="800" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-134" target="5gkbCRGT5eKHyLrMa7Dm-136">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="800" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-134" value="if current xlsx was from TODO FOLDER, save directly" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="940" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-136" target="5gkbCRGT5eKHyLrMa7Dm-138">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="940" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-136" value="if current xlsx was not from TODO FOLDER, delete xlsx if its already in TODO FOLDER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="1100" y="160" width="160" height="60" as="geometry" />
+          <mxGeometry x="940" y="210" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-138" value="only if SDU choosed TODO folder, GENERATE JSON INTO TODO FOLDER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="1280" y="160" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-140" target="5gkbCRGT5eKHyLrMa7Dm-141">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1140" y="125" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-140" value="SAVE xlsx if SDU choosed Need Audit FOLDER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="510" y="340" width="255" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-141" target="5gkbCRGT5eKHyLrMa7Dm-143">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="510" y="370" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-141" value="if current xlsx was from Need Audit FOLDER, save directly" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="800" y="340" width="227.5" height="60" as="geometry" />
+          <mxGeometry x="790" y="310" width="227.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gkbCRGT5eKHyLrMa7Dm-143" value="if current xlsx was not from Need Audit FOLDER, delete xlsx if its already in Need Audit FOLDER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
-          <mxGeometry x="1080" y="340" width="328.75" height="60" as="geometry" />
+          <mxGeometry x="790" y="430" width="328.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5gkbCRGT5eKHyLrMa7Dm-121" source="5gkbCRGT5eKHyLrMa7Dm-145" target="5gkbCRGT5eKHyLrMa7Dm-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-145" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
+          <mxGeometry x="920" y="70" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5gkbCRGT5eKHyLrMa7Dm-148" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="5gkbCRGT5eKHyLrMa7Dm-121">
+          <mxGeometry x="770" y="340" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

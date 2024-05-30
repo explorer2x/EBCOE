@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:22:37.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8NCCymUxiALe_DM6ud_T" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:24:21.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="AfJI8Z2etzpgQFLQb6qC" version="24.4.10" type="github">
   <diagram name="第 1 页" id="B4NL4OhcSvu_nfngXHua">
-    <mxGraphModel dx="3240" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7YN0UH_P70uLBJJyQt3_-6" value="Login BCBSIL" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-426.87" y="320" width="1128.75" height="750" as="geometry">
+          <mxGeometry x="-426.87" y="320" width="1166.87" height="750" as="geometry">
             <mxRectangle x="37.5" y="300" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -118,7 +118,7 @@
           <mxGeometry x="100" y="630" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7YN0UH_P70uLBJJyQt3_-38" value="prepare_sourcedata" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-425.93" y="1090" width="1126.87" height="1140" as="geometry" />
+          <mxGeometry x="-425.93" y="1090" width="1165.93" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="7YN0UH_P70uLBJJyQt3_-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7YN0UH_P70uLBJJyQt3_-38" source="7YN0UH_P70uLBJJyQt3_-39" target="7YN0UH_P70uLBJJyQt3_-54">
           <mxGeometry relative="1" as="geometry" />
@@ -278,11 +278,25 @@
         <mxCell id="7YN0UH_P70uLBJJyQt3_-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7YN0UH_P70uLBJJyQt3_-38" source="7YN0UH_P70uLBJJyQt3_-85" target="7YN0UH_P70uLBJJyQt3_-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7YN0UH_P70uLBJJyQt3_-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7YN0UH_P70uLBJJyQt3_-38" source="7YN0UH_P70uLBJJyQt3_-85" target="7YN0UH_P70uLBJJyQt3_-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7YN0UH_P70uLBJJyQt3_-85" value="Entry dept" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7YN0UH_P70uLBJJyQt3_-38">
           <mxGeometry x="475" y="935" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7YN0UH_P70uLBJJyQt3_-87" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;JS to Add new Dept section if Dept# is large than 5&lt;/li&gt;&lt;li&gt;JS to loop and entry DEPT per jsonObject[&#39;Dependent Summary&#39;]&lt;/li&gt;&lt;li&gt;JS to validate if any error happened after click Next page&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="7YN0UH_P70uLBJJyQt3_-38">
           <mxGeometry x="628.94" y="935" width="425" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7YN0UH_P70uLBJJyQt3_-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="7YN0UH_P70uLBJJyQt3_-38" source="7YN0UH_P70uLBJJyQt3_-89" target="7YN0UH_P70uLBJJyQt3_-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1146" y="1105" />
+              <mxPoint x="1146" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YN0UH_P70uLBJJyQt3_-89" value="&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Status: Completed&lt;/li&gt;&lt;li&gt;Backfill&lt;/li&gt;&lt;li&gt;rename JSON txt file with DONE_and move to next file&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7YN0UH_P70uLBJJyQt3_-38">
+          <mxGeometry x="475.93" y="1060" width="290.93" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
